@@ -8,13 +8,23 @@ Git Comments:
  - git config init.defaultBranch main
  - git init -> initialize your git id
  - git status -> used to view your git on which state
+
+ // add
  - git add "__" -> used to add your file -> 1 file add
  - git add "__" "__" -> used to add your two or many file -> 2 or more file add
  - git add . -> used to add all file
+
+ // commit
  - git commit -m "__" -> used to commit your files -> ex: version 1, version 2.3 etc,..
  - git log -> used to view your all commit history -> each commit have a unique_code
  - git checkout unique_code -> view that commit 
  - git checkout main -> while you view commit if you change anything in file after using this code to checkout , the file is modify
  - git checkout -f main -> this force to main used to dismiss all change , the file look like before commit you viewing the file
  - wfq - used to exit
- 
+
+ // branch 
+ - git branch "__" -> used to create a branch 
+ - git checkout "__" -> used to switch a branch -> enter branch name 
+ - git checkout -b "__" -> used to create new and switch a branch at the same time 
+ - git branch "new_branch_name" "source_branch"
+ - 
